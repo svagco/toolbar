@@ -30,12 +30,12 @@ const Toolbar = (options) => {
     },
   }) : ''
   const rd2 = rd * 2
-  const defs = `<linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="${id}">
+  const defs = `<defs><linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="${id}">
   <stop stop-color="#FFFFFF" offset="0%"/>
   <stop stop-color="#F5F4F5" offset="5%"/>
   <stop stop-color="#D3D3D3" offset="100%"/>
-</linearGradient>`
-  const path = `M${rd2},0 L${width-rd2},0 ${roundedCorner({ x: width-rd2, y: 0 }, { x: width, y: rd2 })} L${width},${height} L0,${height} L0,${height-rd2} ${roundedCorner({ x: 0, y: height - rd2 }, { x: rd2, y: 0 })}`
+</linearGradient></defs>`
+  const path = `M${rd2},0 L${width-rd2},0 ${roundedCorner({ x: width-rd2, y: 0 }, { x: width, y: rd2 })} L${width},${height} L0,${height} L0,${height-rd2} L0,${rd2} ${roundedCorner({ x: 0, y: rd2 }, { x: rd2, y: 0 })}`
   const tl = trafficLights({
     radius: 5.25, offsetX: 9, offsetY: 6,
   })
