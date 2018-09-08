@@ -113,7 +113,7 @@ console.log(res)
 ![toolbar](images/no-title.svg)
 ## TODO
 
-- [ ] Add a new item to the todo list.
+- [ ] Add CSS animations to change the appearance of the traffic light on hover.
 
 ## Copyright
 
