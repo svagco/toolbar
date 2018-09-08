@@ -8,6 +8,7 @@ import trafficLights from './lib'
  * @param {number} options.width The width of the toolbar.
  */
 const Toolbar = (options) => {
+  if (!options) throw new Error('No options are given.')
   const {
     title,
     width,
