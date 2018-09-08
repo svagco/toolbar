@@ -23,7 +23,7 @@ Generate a part of the `SVG` which represents a macOS toolbar.
 
 ![toolbar](images/toolbar.svg)
 
-To generate a toolbar without a title, the `title` option can be omitted.
+To generate a toolbar [without a title](t), the `title` option can be omitted.
 
 %EXAMPLE: example/no-title.js, ../src => @svag/toolbar%
 

@@ -14,6 +14,7 @@ yarn add -E @svag/toolbar
 - [API](#api)
   * [`toolbar(options: ToolbarOptions)`](#toolbaroptions-toolbaroptions-void)
     * [`ToolbarOptions`](#toolbaroptions)
+    * [without a title](#without-a-title)
 - [TODO](#todo)
 - [Copyright](#copyright)
 
@@ -73,7 +74,7 @@ console.log(res)
 
 ![toolbar](images/toolbar.svg)
 
-To generate a toolbar without a title, the `title` option can be omitted.
+To generate a toolbar <a name="without-a-title">without a title</a>, the `title` option can be omitted.
 
 ```js
 import toolbar from '@svag/toolbar'
