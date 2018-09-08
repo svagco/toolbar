@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/svagjs/toolbar.git"
+    "url": "git://github.com/svagco/toolbar.git"
   },
   "keywords": [
     "toolbar",
@@ -32,9 +32,9 @@
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/svagjs/toolbar/issues"
+    "url": "https://github.com/svagco/toolbar/issues"
   },
-  "homepage": "https://github.com/svagjs/toolbar#readme",
+  "homepage": "https://github.com/svagco/toolbar#readme",
   "devDependencies": {
     "alamode": "1.4.0",
     "documentary": "1.11.0",
