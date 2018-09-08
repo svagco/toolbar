@@ -3,7 +3,7 @@
   <stop stop-color="#F5F4F5" offset="5%"/>
   <stop stop-color="#D3D3D3" offset="100%"/>
 </linearGradient></defs>
-<path d="M6,0 L394,0 C 397 0, 400 3, 400 6 L400,50 L0,50 L0,44 L0,6 C 0 3, 3 0, 6 0" fill="url(#toolbar)"/>
+<path d="M6,0 L394,0 C 397 0, 400 3, 400 6 L400,22 L0,22 L0,16 L0,6 C 0 3, 3 0, 6 0" fill="url(#toolbar)"/>
 <text x="200" y="16" font-family="HelveticaNeue, Helvetica Neue" font-size="13" letter-spacing="0.4" fill="#464646" text-anchor="middle">👾Terminal</text>
 <g transform="translate(9, 6)">
   <g>
