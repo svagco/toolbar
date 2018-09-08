@@ -28,14 +28,14 @@ import toolbar from '@svag/toolbar'
 
 ### `toolbar(`<br/>&nbsp;&nbsp;`options: ToolbarOptions,`<br/>`): void`
 
+Generate a part of the `SVG` which represents a macOS toolbar.
+
 __<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
 
 | Name | Type | Description | Default |
 | ---- | ---- | ----------- | ------- |
 | title | _string_ | An optional title to display in the toolbar. | - |
 | __width*__ | _number_ | The width of the toolbar. | - |
-
-Generate a part of the `SVG` which represents a macOS toolbar.
 
 ```js
 import toolbar from '@svag/toolbar'

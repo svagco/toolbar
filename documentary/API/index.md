@@ -13,9 +13,9 @@ import toolbar from '@svag/toolbar'
 ]
 ```
 
-%TYPEDEF types/index.xml%
-
 Generate a part of the `SVG` which represents a macOS toolbar.
+
+%TYPEDEF types/index.xml%
 
 %EXAMPLE: example/example.js, ../src => @svag/toolbar%
 
