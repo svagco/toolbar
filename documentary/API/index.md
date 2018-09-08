@@ -9,11 +9,16 @@ import toolbar from '@svag/toolbar'
 
 ```### toolbar
 [
-  ["arg1", "string"],
-  ["arg2?", "boolean"]
+  ["options", "ToolbarOptions"]
 ]
 ```
 
-Call this function to get the result you want.
+%TYPEDEF types/index.xml%
+
+Generate a part of the `SVG` which represents a macOS toolbar.
 
 %EXAMPLE: example/example.js, ../src => @svag/toolbar%
+
+%FORK-svg example example/example.js%
+
+![toolbar](images/toolbar.svg)

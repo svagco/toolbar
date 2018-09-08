@@ -2,7 +2,7 @@
 
 %NPM: @svag/toolbar%
 
-`@svag/toolbar` is A macOS toolbar.
+`@svag/toolbar` is a macOS toolbar.
 
 ```sh
 yarn add -E @svag/toolbar
