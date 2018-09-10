@@ -78,7 +78,7 @@ const res = Toolbar({
 </g>
 ```
 
-![toolbar](images/toolbar.svg)
+<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
 
 To generate a toolbar <a name="without-a-title">without a title</a>, the `title` option can be omitted.
 
@@ -118,7 +118,8 @@ const res = Toolbar({
 </g>
 ```
 
-![toolbar](images/no-title.svg)
+<img alt="Toolbar without a title." src="https://raw.github.com/svagco/toolbar/master/images/no-title.svg?sanitize=true">
+
 ## TODO
 
 - [ ] Add CSS animations to change the appearance of the traffic light on hover.

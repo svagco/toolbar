@@ -21,7 +21,7 @@ Generate a part of the `SVG` which represents a macOS toolbar.
 
 %FORK-svg example example/example.js%
 
-![toolbar](images/toolbar.svg)
+<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
 
 To generate a toolbar [without a title](t), the `title` option can be omitted.
 
@@ -29,4 +29,4 @@ To generate a toolbar [without a title](t), the `title` option can be omitted.
 
 %FORK-svg example example/no-title.js%
 
-![toolbar](images/no-title.svg)
+<img alt="Toolbar without a title." src="https://raw.github.com/svagco/toolbar/master/images/no-title.svg?sanitize=true">
