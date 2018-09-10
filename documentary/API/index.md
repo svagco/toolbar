@@ -15,13 +15,13 @@ import toolbar from '@svag/toolbar'
 
 Generate a part of the `SVG` which represents a macOS toolbar.
 
+<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
+
 %TYPEDEF types/index.xml%
 
 %EXAMPLE: example/example.js, ../src => @svag/toolbar%
 
 %FORK-svg example example/example.js%
-
-<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
 
 To generate a toolbar [without a title](t), the `title` option can be omitted.
 

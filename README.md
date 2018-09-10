@@ -30,6 +30,8 @@ import toolbar from '@svag/toolbar'
 
 Generate a part of the `SVG` which represents a macOS toolbar.
 
+<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
+
 __<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
 
 | Name | Type | Description | Default |
@@ -77,8 +79,6 @@ const res = Toolbar({
   </g>
 </g>
 ```
-
-<img alt="Toolbar with a title." src="https://raw.github.com/svagco/toolbar/master/images/toolbar.svg?sanitize=true">
 
 To generate a toolbar <a name="without-a-title">without a title</a>, the `title` option can be omitted.
 
