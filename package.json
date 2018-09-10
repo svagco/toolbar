@@ -69,6 +69,6 @@
     "zoroaster": "3.0.3"
   },
   "dependencies": {
-    "@svag/lib": "1.0.0"
+    "@svag/lib": "2.0.0"
   }
 }
