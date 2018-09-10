@@ -23,7 +23,7 @@ Generate a part of the `SVG` which represents a macOS toolbar.
 
 %FORK-svg example example/example.js%
 
-To generate a toolbar [without a title](t), the `title` option can be omitted.
+[Without A Title](t): To generate a toolbar without a title, the `title` option can be omitted.
 
 %EXAMPLE: example/no-title.js, ../src => @svag/toolbar%
 
