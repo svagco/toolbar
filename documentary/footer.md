@@ -1,7 +1,7 @@
 
 ## TODO
 
-- [ ] Add a new item to the todo list.
+- [ ] Add CSS styles to change the appearance of the traffic lights on hover.
 
 ## Copyright
 

@@ -1,8 +1,7 @@
 import { makeElement } from '@svag/lib'
 
-const makeCircle = (cy, color, radius, cx) => {
-  const c = makeElement({
-    name: 'circle',
+const makeCircle = (cx, cy, color, radius) => {
+  const c = makeElement('circle', {
     attributes: {
       stroke: color,
       'stroke-width': 1,
@@ -14,27 +13,38 @@ const makeCircle = (cy, color, radius, cx) => {
   return c
 }
 
-const trafficLights = ({ radius: r, offsetX, offsetY }) => {
+const makeLight = (cx, cy, color, strokeColor, r) => {
   const r2 = r + 0.25
-  const cy = 5
-  const red = makeCircle(cy, '#E33E32', r2, 5)
-  const yellow = makeCircle(cy, '#E2A100', r2, 25)
-  const green = makeCircle(cy, '#17B230', r2, 45)
+  const light = makeElement('g', {
+    content: [
+      makeCircle(cx, cy, strokeColor, r2),
+      makeElement('circle', {
+        attributes: {
+          fill: color,
+          cx,
+          cy,
+          r,
+        },
+      }),
+    ],
+  })
+  return light
+}
 
-  return `<g transform="translate(${offsetX}, ${offsetY})">
-  <g>
-    ${red}
-    <circle fill="#FF5F52" cx="5" cy="${cy}" r="${r}"/>
-  </g>
-  <g>
-    ${yellow}
-    <circle fill="#FFBE05" cx="25" cy="${cy}" r="${r}"/>
-  </g>
-  <g>
-    ${green}
-    <circle fill="#15CC35" cx="45" cy="${cy}" r="${r}"/>
-  </g>
-</g>`
+const trafficLights = ({ radius: r = 5.25, offsetX, offsetY }) => {
+  const cy = 5
+
+  const g = makeElement('g', {
+    attributes: {
+      transform: `translate(${offsetX}, ${offsetY})`,
+    },
+    content: [
+      makeLight(5, cy, '#FF5F52', '#E33E32', r),
+      makeLight(25, cy, '#FFBE05', '#E2A100', r),
+      makeLight(45, cy, '#15CC35', '#17B230', r),
+    ],
+  })
+  return g
 }
 
 export default trafficLights

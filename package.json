@@ -1,6 +1,6 @@
 {
   "name": "@svag/toolbar",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A macOS toolbar.",
   "main": "build",
   "scripts": {
@@ -19,7 +19,8 @@
     "example/": "yarn e example/example.js"
   },
   "files": [
-    "build"
+    "build",
+    "types"
   ],
   "repository": {
     "type": "git",
@@ -27,7 +28,32 @@
   },
   "keywords": [
     "toolbar",
-    "svag"
+    "svag",
+    "svg",
+    "generation",
+    "image",
+    "web",
+    "png",
+    "jpeg",
+    "gif",
+    "vector",
+    "graphics",
+    "picture",
+    "terminal",
+    "chrome",
+    "safari",
+    "browser",
+    "macOS",
+    "mac",
+    "yosemite",
+    "sierra",
+    "el capitan",
+    "OS X",
+    "UI",
+    "interface",
+    "mockup",
+    "mock-up",
+    "wireframe"
   ],
   "author": "Anton <anton@adc.sh>",
   "license": "MIT",
@@ -37,10 +63,13 @@
   "homepage": "https://github.com/svagco/toolbar#readme",
   "devDependencies": {
     "alamode": "1.4.0",
-    "documentary": "1.11.0",
+    "documentary": "1.14.0",
     "eslint-config-artdeco": "1.0.1",
     "snapshot-context": "2.0.4",
     "yarn-s": "1.1.0",
-    "zoroaster": "3.0.0"
+    "zoroaster": "3.0.3"
+  },
+  "dependencies": {
+    "@svag/lib": "2.0.0"
   }
 }
