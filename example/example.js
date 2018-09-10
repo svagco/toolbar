@@ -1,15 +1,15 @@
 import { svg } from '@svag/lib'
 import { writeFileSync } from 'fs'
 /* start example */
-import toolbar from '../src'
+import Toolbar from '../src'
 
-const res = toolbar({
-  title: '👾Terminal',
+const res = Toolbar({
+  title: '👾 Terminal',
   width: 400,
 })
+/* end example */
 
 console.log(res)
-/* end example */
 const image = svg({
   content: res,
   height: 50,

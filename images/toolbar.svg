@@ -12,7 +12,7 @@
           fill="url(#toolbar)"/>
     <text x="200" y="16" font-family="HelveticaNeue, Helvetica Neue" font-size="13"
           letter-spacing="0.4" fill="#464646" text-anchor="middle">
-      👾Terminal
+      👾 Terminal
     </text>
     <g transform="translate(9, 6)">
       <g>

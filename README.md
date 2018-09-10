@@ -38,14 +38,12 @@ __<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
 | __width*__ | _number_ | The width of the toolbar. | - |
 
 ```js
-import toolbar from '@svag/toolbar'
+import Toolbar from '@svag/toolbar'
 
-const res = toolbar({
-  title: '👾Terminal',
+const res = Toolbar({
+  title: '👾 Terminal',
   width: 400,
 })
-
-console.log(res)
 ```
 
 ```svg
@@ -61,7 +59,7 @@ console.log(res)
         fill="url(#toolbar)"/>
   <text x="200" y="16" font-family="HelveticaNeue, Helvetica Neue" font-size="13"
         letter-spacing="0.4" fill="#464646" text-anchor="middle">
-    👾Terminal
+    👾 Terminal
   </text>
   <g transform="translate(9, 6)">
     <g>
@@ -85,13 +83,11 @@ console.log(res)
 To generate a toolbar <a name="without-a-title">without a title</a>, the `title` option can be omitted.
 
 ```js
-import toolbar from '@svag/toolbar'
+import Toolbar from '@svag/toolbar'
 
-const res = toolbar({
+const res = Toolbar({
   width: 400,
 })
-
-console.log(res)
 ```
 
 ```svg
