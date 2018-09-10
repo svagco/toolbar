@@ -1,7 +1,7 @@
 
 ## TODO
 
-- [ ] Add CSS animations to change the appearance of the traffic light on hover.
+- [ ] Add CSS styles to change the appearance of the traffic lights on hover.
 
 ## Copyright
 
