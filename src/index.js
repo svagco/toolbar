@@ -4,8 +4,8 @@ import trafficLights from './lib'
 /**
  * Create a toolbar element which with a traffic lights (close, minimise and expand buttons), and possibly a title.
  * @param {ToolbarOptions} options Options to make a toolbar.
- * @param {string} [options.title] An optional title to display in the toolbar.
  * @param {number} options.width The width of the toolbar.
+ * @param {string} [options.title] An optional title to display in the toolbar.
  */
 const Toolbar = (options) => {
   if (!options) throw new Error('No options are given.')
@@ -85,8 +85,8 @@ const Toolbar = (options) => {
 /* documentary types/index.xml */
 /**
  * @typedef {Object} ToolbarOptions Options to make a toolbar.
- * @prop {string} [title] An optional title to display in the toolbar.
  * @prop {number} width The width of the toolbar.
+ * @prop {string} [title] An optional title to display in the toolbar.
  */
 
 export default Toolbar

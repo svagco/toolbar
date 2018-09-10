@@ -36,8 +36,8 @@ __<a name="toolbaroptions">`ToolbarOptions`</a>__: Options to make a toolbar.
 
 | Name | Type | Description | Default |
 | ---- | ---- | ----------- | ------- |
-| title | _string_ | An optional title to display in the toolbar. | - |
 | __width*__ | _number_ | The width of the toolbar. | - |
+| title | _string_ | An optional title to display in the toolbar. | - |
 
 ```js
 import Toolbar from '@svag/toolbar'

@@ -1,10 +1,10 @@
 <types>
   <type name="ToolbarOptions" desc="Options to make a toolbar.">
-    <prop opt string name="title">
-      An optional title to display in the toolbar.
-    </prop>
     <prop number name="width">
       The width of the toolbar.
+    </prop>
+    <prop opt string name="title">
+      An optional title to display in the toolbar.
     </prop>
   </type>
 </types>
