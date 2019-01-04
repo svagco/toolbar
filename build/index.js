@@ -1,5 +1,5 @@
 const { makeElement, roundedCorner } = require('@svag/lib');
-let trafficLights = require('./lib'); if (trafficLights && trafficLights.__esModule) trafficLights = trafficLights.default;
+const trafficLights = require('./lib');
 
 /**
  * Create a toolbar element which with a traffic lights (close, minimise and expand buttons), and possibly a title.
